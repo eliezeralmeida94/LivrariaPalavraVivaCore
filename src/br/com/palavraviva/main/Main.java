@@ -1,3 +1,9 @@
+/**
+ * Classe principal utilizada para testes manuais do core do sistema.
+ * Simula cadastro de livros, clientes, realização de vendas
+ * e atualização automática de estoque.
+ */
+
 package br.com.palavraviva.main;
 
 import br.com.palavraviva.exception.RegraNegocioException;
