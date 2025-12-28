@@ -1,3 +1,8 @@
+/**
+ * Service responsável pelas regras de negócio de venda.
+ * Centraliza validações e controle de estoque.
+ */
+
 package br.com.palavraviva.service;
 
 import br.com.palavraviva.exception.RegraNegocioException;
