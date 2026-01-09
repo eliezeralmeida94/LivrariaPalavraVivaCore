@@ -5,6 +5,14 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class VendaServiceTest {
+    
+    public double calcularTotal(double valorUnitario, int quantidade) {
+    if (quantidade <= 0) {
+        throw new IllegalArgumentException("Quantidade inválida");
+    }
+    return valorUnitario * quantidade;
+}
+
 
     @Test
     public void deveCalcularTotalCorretamente() {
